@@ -42,7 +42,7 @@ class _NotificationLoginState extends State<NotificationLogin> {
             height: 10,
           ),
           MaterialButton(
-              color: Colors.purple,
+              color: Color(0xFF9C27B0),
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => HomePage()));
